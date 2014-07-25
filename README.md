@@ -1,7 +1,7 @@
-Image-Slicer
-============
+Image Slicer 
+==================
 
-Following code slice image based on parameters, add borders and displays:
+Slice image based on parameters, add borders and displays.
 
 
 SAMPLE USAGE AND RESULT
