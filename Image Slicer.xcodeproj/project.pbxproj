@@ -21,6 +21,9 @@
 		D3C43AD71981C4B200732901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C43AB91981C4B200732901 /* UIKit.framework */; };
 		D3C43ADF1981C4B200732901 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3C43ADD1981C4B200732901 /* InfoPlist.strings */; };
 		D3C43AE11981C4B200732901 /* Image_SlicerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C43AE01981C4B200732901 /* Image_SlicerTests.m */; };
+		D3C43AF11981CEBD00732901 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C43AF01981CEBD00732901 /* QuartzCore.framework */; };
+		D3C43AF51981D30F00732901 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C43AF41981D30F00732901 /* 1.png */; };
+		D3C43AF71981DAFB00732901 /* IMG_4813.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3C43AF61981DAFB00732901 /* IMG_4813.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		D3C43ADC1981C4B200732901 /* Image SlicerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image SlicerTests-Info.plist"; sourceTree = "<group>"; };
 		D3C43ADE1981C4B200732901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3C43AE01981C4B200732901 /* Image_SlicerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_SlicerTests.m; sourceTree = "<group>"; };
+		D3C43AF01981CEBD00732901 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D3C43AF41981D30F00732901 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D3C43AF61981DAFB00732901 /* IMG_4813.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4813.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C43AF11981CEBD00732901 /* QuartzCore.framework in Frameworks */,
 				D3C43AB81981C4B200732901 /* CoreGraphics.framework in Frameworks */,
 				D3C43ABA1981C4B200732901 /* UIKit.framework in Frameworks */,
 				D3C43AB61981C4B200732901 /* Foundation.framework in Frameworks */,
@@ -101,6 +108,7 @@
 		D3C43AB41981C4B200732901 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3C43AF01981CEBD00732901 /* QuartzCore.framework */,
 				D3C43AB51981C4B200732901 /* Foundation.framework */,
 				D3C43AB71981C4B200732901 /* CoreGraphics.framework */,
 				D3C43AB91981C4B200732901 /* UIKit.framework */,
@@ -112,6 +120,8 @@
 		D3C43ABB1981C4B200732901 /* Image Slicer */ = {
 			isa = PBXGroup;
 			children = (
+				D3C43AF61981DAFB00732901 /* IMG_4813.jpg */,
+				D3C43AF41981D30F00732901 /* 1.png */,
 				D3C43AC41981C4B200732901 /* AppDelegate.h */,
 				D3C43AC51981C4B200732901 /* AppDelegate.m */,
 				D3C43AC71981C4B200732901 /* Main.storyboard */,
@@ -228,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C43AF71981DAFB00732901 /* IMG_4813.jpg in Resources */,
 				D3C43ACE1981C4B200732901 /* Images.xcassets in Resources */,
+				D3C43AF51981D30F00732901 /* 1.png in Resources */,
 				D3C43AC01981C4B200732901 /* InfoPlist.strings in Resources */,
 				D3C43AC91981C4B200732901 /* Main.storyboard in Resources */,
 			);
@@ -379,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Slicer/Image Slicer-Prefix.pch";
 				INFOPLIST_FILE = "Image Slicer/Image Slicer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Slicer/Image Slicer-Prefix.pch";
 				INFOPLIST_FILE = "Image Slicer/Image Slicer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

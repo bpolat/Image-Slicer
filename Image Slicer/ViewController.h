@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+}
+
+
+@property (nonatomic,strong) IBOutlet UIImageView *image;
 
 @end
